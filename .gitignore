@@ -1,0 +1,36 @@
+# Ignore build and bin directories where compiled output and executables are stored
+/build/
+/bin/
+
+# Ignore test executables
+/tests/*.o
+/tests/*.out
+
+# Ignore object files and temporary files
+*.o
+*.obj
+*.lo
+*.slo
+
+# Ignore precompiled headers and compiled Dynamic/Static libraries
+*.gch
+*.pch
+*.so
+*.a
+*.lib
+*.dll
+*.dylib
+
+# Ignore editor and system files
+*.swp
+*.DS_Store
+*.vscode/
+*.idea/
+*.vs/
+*.log
+
+# Ignore temporary and backup files
+*~
+*.tmp
+*.bak
+*.backup
